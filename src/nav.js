@@ -7,6 +7,7 @@ const nav = () => {
   const main = document.querySelector('#content');
 
   const navigation = document.createElement('ul');
+  navigation.classList.add('list');
   navbar.appendChild(navigation);
 
   const createLink = (linkText, callMethod) => {

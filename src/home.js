@@ -2,17 +2,16 @@
 const home = () => {
   const main = document.querySelector('#content');
   const hero = document.createElement('div');
-  const heroImg = document.createElement('img');
-  heroImg.src = '../src/images/hero_img.jpg';
+  hero.classList.add('hero-container');
   const heroTitle = document.createElement('h1');
-  heroTitle.innerHTML = 'Hero Delivery';
+  heroTitle.innerHTML = "Mono's pizza";
   const heroCopy = document.createElement('h3');
-  heroCopy.innerHTML = "We'll always deliver food on time with the highest quality standards";
+  heroCopy.innerHTML = 'The best pizza in town. Come on in and grab a slice';
   const heroCta = document.createElement('button');
-  heroCta.innerHTML = 'Order now';
+  heroCta.innerHTML = 'Book your table';
+  heroCta.classList.add('cta');
 
   main.appendChild(hero);
-  hero.appendChild(heroImg);
   hero.appendChild(heroTitle);
   hero.appendChild(heroCopy);
   hero.appendChild(heroCta);
