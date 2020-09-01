@@ -1,9 +1,9 @@
 
-const home = (() => {
+const home = () => {
   const main = document.querySelector('#content');
   const hero = document.createElement('div');
   const heroImg = document.createElement('img');
-  heroImg.src = '../src/images/hero_img.svg';
+  heroImg.src = '../src/images/hero_img.jpg';
   const heroTitle = document.createElement('h1');
   heroTitle.innerHTML = 'Hero Delivery';
   const heroCopy = document.createElement('h3');
@@ -16,6 +16,6 @@ const home = (() => {
   hero.appendChild(heroTitle);
   hero.appendChild(heroCopy);
   hero.appendChild(heroCta);
-})();
+};
 
 export default home;
