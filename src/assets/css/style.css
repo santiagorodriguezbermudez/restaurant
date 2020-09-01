@@ -13,7 +13,6 @@ body {
 }
 
 .hero-container {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 20%, transparent 100%), url('../images/hero_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,6 +24,18 @@ body {
   align-items: center;
   justify-content: start;
   padding-top: 10em;
+}
+
+.restaurant-picture {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 20%, transparent 100%), url('../images/hero_img.jpg');
+}
+
+.contact-picture {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 20%, transparent 100%), url('../images/contact_img.jpg');
+}
+
+.menu-picture {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 20%, transparent 100%), url('../images/menu_img.jpg');
 }
 
 .list {
@@ -55,4 +66,36 @@ body {
   border-radius: 1rem;
   box-shadow: 0 0 50px lightblue;
   font-size: 1.2rem;
+}
+
+.menu-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.menu-pizza {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: solid;
+}
+
+.menu-pizza p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.menu-wine {
+
+}
+
+.menu-desert {
+
 }
