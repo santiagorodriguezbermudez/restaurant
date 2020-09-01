@@ -3,6 +3,7 @@ const home = () => {
   const main = document.querySelector('#content');
   const hero = document.createElement('div');
   hero.classList.add('hero-container');
+  hero.classList.add('restaurant-picture');
   const heroTitle = document.createElement('h1');
   heroTitle.innerHTML = "Mono's pizza";
   const heroCopy = document.createElement('h3');
