@@ -1,0 +1,19 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "A Microverse educational project to learn JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagorodriguezbermudez/restaurant.git"
+  },
+  "author": "Santiago Rodriguez B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagorodriguezbermudez/restaurant/issues"
+  },
+  "homepage": "https://github.com/santiagorodriguezbermudez/restaurant#readme"
+}
