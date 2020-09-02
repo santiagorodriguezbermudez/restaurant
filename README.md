@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Work in progress]()
+[View live demo](https://raw.githack.com/santiagorodriguezbermudez/restaurant/feature-restaurant-page/dist/index.html)
 
 ## Getting Started
 
