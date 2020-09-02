@@ -1,5 +1,9 @@
 # Restaurant - A Microverse educational project
 
+Building a website using webpacker and JavaScript ES6 to build the entire website manipulating DOM elements using JS modules.
+
+![screenshot](./dist/assets/images/home_screenshot.png)
+
 ## Built With
 
 -   HTML5
@@ -9,7 +13,7 @@
 
 ## Live Demo
 
-[Work in progress]()
+[View live demo](https://raw.githack.com/santiagorodriguezbermudez/restaurant/feature-restaurant-page/dist/index.html)
 
 ## Getting Started
 
