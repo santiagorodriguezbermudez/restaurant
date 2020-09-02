@@ -16,12 +16,13 @@ const menu = () => {
   const menuSection = addContainer('menu-section', background);
   const menuPizza = addContainer('menu-pizza', menuSection);
   const wrapper = addContainer('wrapper', menuSection);
-  const menuWine = addContainer('menu-wine', wrapper);
-  const menuDesert = addContainer('menu-desert', wrapper);
+  const menuWine = addContainer('side-menu', wrapper);
+  const menuDesert = addContainer('side-menu', wrapper);
 
   const addItemsToMenu = (titleString, element, numberofItems, itemName) => {
-    const title = document.createElement('h6');
+    const title = document.createElement('p');
     title.innerHTML = titleString;
+    element.append(title);
 
     const randomItemsArray = [...Array(numberofItems)].map(() => `${itemName}....$${Math.floor(Math.random() * 100)}`);
     randomItemsArray.forEach(item => {
@@ -32,8 +33,8 @@ const menu = () => {
   };
 
   addItemsToMenu("Our Pizza's", menuPizza, 15, 'Surprise Pizza Flavour');
-  addItemsToMenu('Wines', menuWine, 13, 'Surprise Wine');
-  addItemsToMenu('Deserts', menuDesert, 5, 'Surprise Desert');
+  addItemsToMenu('Wines', menuWine, 8, 'Surprise Wine');
+  addItemsToMenu('Deserts', menuDesert, 3, 'Surprise Dulce');
 };
 
 export default menu;
