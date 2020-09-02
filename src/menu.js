@@ -1,3 +1,4 @@
+import footer from './footer';
 
 const menu = () => {
   const main = document.querySelector('#content');
@@ -35,6 +36,7 @@ const menu = () => {
   addItemsToMenu("Our Pizza's", menuPizza, 15, 'Surprise Pizza Flavour');
   addItemsToMenu('Wines', menuWine, 8, 'Surprise Wine');
   addItemsToMenu('Deserts', menuDesert, 3, 'Surprise Dulce');
+  footer('menu');
 };
 
 export default menu;

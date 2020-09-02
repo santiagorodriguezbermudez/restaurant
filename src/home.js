@@ -1,3 +1,4 @@
+import footer from './footer';
 
 const home = () => {
   const main = document.querySelector('#content');
@@ -16,6 +17,7 @@ const home = () => {
   hero.appendChild(heroTitle);
   hero.appendChild(heroCopy);
   hero.appendChild(heroCta);
+  footer('home');
 };
 
 export default home;

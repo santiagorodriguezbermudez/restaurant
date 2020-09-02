@@ -1,3 +1,4 @@
+import footer from './footer';
 
 const contact = () => {
   const main = document.querySelector('#content');
@@ -11,6 +12,7 @@ const contact = () => {
 
   main.appendChild(background);
   background.appendChild(contactInfo);
+  footer('contact');
 };
 
 export default contact;
